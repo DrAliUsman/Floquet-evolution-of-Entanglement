@@ -35,6 +35,6 @@ for n in range (1, 50):                 # number of kicks to simulate
     Fd = F.dag()
 
     S = 1-((abs((((Fd)**n)*((F0)**n)).matrix_element(psic, psi)))**2)
-    print S
+    print S                 #linear entropy as a measure of LQU
 
 
