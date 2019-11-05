@@ -31,7 +31,7 @@ for n in range (1, 50):                 # number of kicks to simulate
     ## Evolution Operator ##
     F0 = (-i*alpha*(a.dag()*a + 0.5)).expm()
     F1 = (-i*(V0/heff)*(cosine((etta)*(a + a.dag())))).expm()
-    F = F0*F1				# Floquet operator
+    F = F0*F1				            # Floquet operator
     Fd = F.dag()
 
     S = 1-((abs((((Fd)**n)*((F0)**n)).matrix_element(psic, psi)))**2)
