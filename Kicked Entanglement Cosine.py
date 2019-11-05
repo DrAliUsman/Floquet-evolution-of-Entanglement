@@ -9,7 +9,7 @@ def cosine(Op):
 
 
 ## Parameters ##
-i = 1.0j 				                # imaginary unit
+i = 1.0j 				         # imaginary unit
 q = 2                                   # dimensionless ratio between frequencie           
 alpha = 2*pi/q			                # scaled time (kick to kick period)
 heff = 1.0                              # scaled Planck's constant
